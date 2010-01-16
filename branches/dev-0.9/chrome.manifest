@@ -1,0 +1,9 @@
+content	httpfox chrome/content/
+content	httpfox chrome/content/XMLPrettyPrint.xsl contentaccessible=yes
+skin httpfox classic/1.0 chrome/skin/
+
+content httpfox chrome/content/Utils.js
+content httpfox chrome/content/HttpFox.js
+content httpfox chrome/content/HttpFoxTree.js
+
+overlay chrome://browser/content/browser.xul chrome://httpfox/content/browserOverlay.xul
